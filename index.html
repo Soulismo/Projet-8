@@ -3,6 +3,41 @@
   <head>
     <title>Nina Carducci - Photographe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nina Carducci" />
+    <meta name="copyright" content="© Nina Carducci" />
+    <meta
+      name="description"
+      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+    />
+
+    <!-- Meta donnés pour le référencement facebook -->
+
+    <meta property="og:title" content="Nina Carducci - Photographe" />
+    <meta
+      property="og:description"
+      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+    />
+
+    <meta property="og:url" content="https://soulismo.github.io/Projet-8/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nina Carducci" />
+
+    <!-- Meta donnés pour le référencement Twitter -->
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nina Carducci - Photographe - Bordeaux"
+    />
+    <meta
+      name="twitter:description"
+      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+    />
+    <meta
+      name="twitter:image"
+      content="https://kyra110.github.io/Nina-P9/assets/images/nina.webp"
+    />
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,6 +56,39 @@
     ></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
+    script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Nina Carducci",
+        "image": "./assets/images/nina.webp",
+        "url": "https://ninacarducci.github.io/",
+        "priceRange": "50€ - 400€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "telephone": "+33556677889",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
+      }
+    </script>
   </head>
   <body>
     <header class="top-header">
